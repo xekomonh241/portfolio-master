@@ -1,42 +1,36 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import ResumeCard from './ResumeCard'
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Achievement = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
+      className="w-full  font-titleFont flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div>
+      <div className="w-full">
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2007 - 2010</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+          <h2 className="mt-10 text-4xl font-bold">Achievement and Reward</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="lgl:mt-14 mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="1ST PRIZE U20 TRACH IN SOLANA VIETNAM CODING CAMP"
+            subTitle="Solana VietNam Coding Camp Season 2"
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="The project is implemented by 3 members to build an online contract signing application using 
+            e-wallets on the solana ecosystem."
           />
           <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
+            title="Three times received college scholarships"
+            subTitle=""
             result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
-          />
-          <ResumeCard
-            title="Lorem ipsum dolor sit amet."
-            subTitle="Lorem ipsum dolor sit amet alternative."
-            result="Success"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora itaque accusamus corporis dolor debitis natus sapiente, voluptates possimus minima totam!"
+            des="By studying hard and successfully completing course projects, I have won academic scholarships"
           />
         </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Achievement
+export default Achievement;
