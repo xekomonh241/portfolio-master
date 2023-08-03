@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaReact, FaTelegram, FaInstagram } from "react-
 import { SiTailwindcss, SiNodedotjs, SiJavascript } from "react-icons/si";
 const Media = () => {
   return (
-    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+    <div className="flex flex-col  xl:flex-row gap-6 lgl:gap-2 justify-between">
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">

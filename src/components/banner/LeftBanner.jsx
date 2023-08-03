@@ -14,8 +14,8 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY PORTFOLIO</h4>
-        <h1 className="text-5xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Nguyen Duc Manh</span>
+        <h1 className="text-7xl font-bold text-white">
+          Hi, I'm <span className="text-designColor capitalize">Duc Manh</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -25,7 +25,7 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
+        <p className="text-base text-justify font-bodyFont leading-6 tracking-wide">
         I built this website for the purpose of introducing myself and looking for 
         job opportunities as an intern. At the same time, this construction helps me 
         gain more knowledge and practice programming skills for what I am aiming for in the future.
