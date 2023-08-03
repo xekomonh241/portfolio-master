@@ -1,9 +1,9 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaReact, FaTelegram, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaReact, FaTelegram } from "react-icons/fa";
 import { SiTailwindcss, SiNodedotjs, SiJavascript } from "react-icons/si";
 const Media = () => {
   return (
-    <div className="flex flex-col  xl:flex-row gap-6 lgl:gap-2 justify-between">
+    <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
@@ -16,12 +16,9 @@ const Media = () => {
           <a href="https://t.me/xekomonh" className="bannerIcon">
             <FaTelegram />
           </a>
-          <a href="https://www.instagram.com/duc.manguyn/" className="bannerIcon">
-            <FaInstagram />
-          </a>
         </div>
       </div>
-      <div>
+      <div className="mt-6 xl:mt-0">
         <h2 className="text-base uppercase font-titleFont mb-4">
           BEST SKILL ON
         </h2>

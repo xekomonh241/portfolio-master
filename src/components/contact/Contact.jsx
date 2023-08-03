@@ -56,7 +56,7 @@ const Contact = () => {
       <div className="w-full mt-10">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+          <div className="w-full xl:w-[60%] lgl:w-[63%] lgl:mt-0 mt-5 h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form
               action="https://getform.io/f/1dc9d32b-b60a-4f64-ac31-71d4f00fe4c6"
               method="POST"

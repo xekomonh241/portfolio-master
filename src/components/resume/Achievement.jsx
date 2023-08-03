@@ -22,8 +22,14 @@ const Achievement = () => {
             e-wallets on the solana ecosystem."
           />
           <ResumeCard
-            title="Three times received college scholarships"
-            subTitle=""
+            title="Received college scholarships"
+            subTitle="2021-2022"
+            result="Success"
+            des="By studying hard and successfully completing course projects, I have won academic scholarships"
+          />
+          <ResumeCard
+            title="Received college scholarships"
+            subTitle="2022-2023"
             result="Success"
             des="By studying hard and successfully completing course projects, I have won academic scholarships"
           />

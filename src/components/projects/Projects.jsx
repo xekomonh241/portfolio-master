@@ -12,7 +12,7 @@ const Projects = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="VISIT MY PROJECTS" des="My Projects" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <ProjectsCard
           title="SOCIALFI"
           des="SolShield is the ideal solution for electronic signature (e-signatures) technology and digitizing contract.
