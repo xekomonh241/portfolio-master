@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import ResumeCard from './ResumeCard'
+import React from "react";
+import { motion } from "framer-motion";
+import ResumeCard from "./ResumeCard";
 
 const Education = () => {
   return (
@@ -10,7 +10,7 @@ const Education = () => {
       className="w-full font-titleFont flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
       {/* part one */}
-      <div className='w-full'>
+      <div className="w-full">
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2012-now</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
@@ -20,7 +20,8 @@ const Education = () => {
             title="Software Engineering"
             subTitle="Sai Gon University (2019-now)"
             result="3.3/4"
-            des="The training offered by universities is intended to prepare people to work in different fields, specifically software engineering."
+            des="During my studies, I have gained a lot of basic knowledge about programming. In my major, I have built and developed 
+            web applications well to complete subjects with high scores. Therefore I received two college scholarships."
           />
           <ResumeCard
             title="High School Education"
@@ -37,7 +38,7 @@ const Education = () => {
         </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Education
+export default Education;
