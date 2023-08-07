@@ -13,7 +13,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Nguyen Duc Manh</h3>
         <p className="text-lg font-normal text-gray-400">
-          Front-End Developer
+          Full-Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
         I would like to join your company as an intern. If you have recruitment needs, please contact me.
