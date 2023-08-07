@@ -9,7 +9,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className="text-3xl pl-10">Portfolio.</div>
+      <div className="text-3xl pl-2 md:pl-5 lgl:pl-10">Portfolio.</div>
       <div>
         <ul className="hidden mr-10 mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ id, title, link }) => (

@@ -16,7 +16,7 @@ const ContactLeft = () => {
           Front-End Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        During my internship, I would like to join your company as an intern. If you have recruitment needs, please contact me.
+        I would like to join your company as an intern. If you have recruitment needs, please contact me.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+84 362223116</span>
@@ -26,7 +26,7 @@ const ContactLeft = () => {
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont ">Find me in</h2>
+        <h2 className="text-base uppercase font-titleFont ">Find me on</h2>
         <div className="flex gap-4">
         <a href="https://www.facebook.com/ducmanh1101/" className="bannerIcon">
             <FaFacebookF />

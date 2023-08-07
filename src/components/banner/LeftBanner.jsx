@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Coder.", "Front-End Developer.", "Intern Developer"],
+    words: ["a Coder.", "a Front-End Developer.", "an Intern Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -18,7 +18,7 @@ const LeftBanner = () => {
           Hi, I'm <span className="text-designColor capitalize">Duc Manh</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -26,9 +26,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base text-justify font-bodyFont leading-6 tracking-wide">
-        I built this website for the purpose of introducing myself and looking for 
-        job opportunities as an intern. At the same time, this construction helps me 
-        gain more knowledge and practice programming skills for what I am aiming for in the future.
+        I created this website to introduce myself and search for internship opportunities.
+        At the same time, this construction allows me to gain more knowledge and practice 
+        programming skills for my future goals.
         </p>
       </div>
       {/* Media */}

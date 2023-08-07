@@ -15,7 +15,7 @@ const Achievement = () => {
         </div>
         <div className="lgl:mt-14 mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="1ST PRIZE U20 TRACH IN SOLANA VIETNAM CODING CAMP"
+            title="1ST PRIZE U20 TRACK IN SOLANA VIETNAM CODING CAMP"
             subTitle="Solana VietNam Coding Camp Season 2"
             result="Success"
             des="The project is implemented by 3 members to build an online contract signing application using 
