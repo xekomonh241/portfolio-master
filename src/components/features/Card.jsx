@@ -21,7 +21,7 @@ const Card = ({item:{title,des,icon}}) => {
             <h2 className="text-xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
-            <p className="base text-justify">{des}</p>
+            <p className="text-base text-justify">{des}</p>
           </div>
         </div>
       </div>

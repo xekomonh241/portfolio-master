@@ -1,6 +1,7 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs"
 import { FaGlobe } from "react-icons/fa"
+import Technologies from "./Technologies";
 
 const ProjectsCard = ({ title, des, src, srcCode, linkGlobe }) => {
   return (
@@ -27,10 +28,13 @@ const ProjectsCard = ({ title, des, src, srcCode, linkGlobe }) => {
               </a>
             </div>
           </div>
-          <p className="text-sm text-justify tracking-wide mt-3 hover:text-gray-100 duration-300">
+          <p className="text-base text-justify tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
         </div>
+      </div>
+      <div className="w-full h-auto bottom-0">
+          <Technologies />
       </div>
     </div>
   );

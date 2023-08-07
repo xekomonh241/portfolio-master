@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base text-justify font-bodyFont leading-6 tracking-wide">
-        I created this website to introduce myself and search for internship opportunities.
+        As a newbiew, i created this website to introduce myself and search for internship opportunities.
         At the same time, this construction allows me to gain more knowledge and practice 
         programming skills for my future goals.
         </p>

@@ -16,8 +16,7 @@ const Projects = () => {
         <ProjectsCard
           title="SOCIALFI"
           des="SolShield is the ideal solution for electronic signature (e-signature) technology and contract digitization. 
-          Instead of signing contracts and other documents with pen and paper, SolShield software allows parties to sign 
-          them electronically on Solana. This eliminates the need for contract parties to be physically present at the same location"
+          It allows parties to sign them electronically on Solana. SolShield won first prize U20 Track in Solana Vietnam conding camp season 2."
           src={solshield}
           srcCode="https://github.com/xekomonh241/solshield"
           linkGlobe="https://solshield.onrender.com/"

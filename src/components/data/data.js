@@ -1,5 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaGlobe, FaEthereum } from "react-icons/fa";
+import { FaGlobe } from "react-icons/fa";
+import { TbCurrencySolana } from "react-icons/tb"
 
 // Features Data
 export const featuresData = [
@@ -11,7 +12,7 @@ export const featuresData = [
   },
   {
     id: 2,
-    icon: <FaEthereum />,
+    icon: <TbCurrencySolana />,
     title: "Solana programming",
     des: "Solana is a fast and scalable blockchain platform that has been designed specifically for decentralized applications (dApps). It allows to build and deploy dApps quickly and efficiently.",
   },
