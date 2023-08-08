@@ -8,9 +8,9 @@ import Contact from "./components/contact/Contact";
 
 function App() {
   return (
-    <div className="w-full h-auto bg-bodyColor text-lightText px-4">
+    <div className="w-full h-auto bg-bodyColor text-lightText">
         <Navbar />
-      <div className="max-w-screen-2xl mx-auto  xl:p-10">
+      <div className="max-w-screen-2xl mx-auto px-4 xl:p-10">
         <Banner />
         <Features />
         <Projects />
