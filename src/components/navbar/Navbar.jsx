@@ -4,12 +4,15 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaTelegram, FaInstagram } from "react-icons/fa";
 import { navLinksdata } from "../../constants";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className="text-3xl pl-2 md:pl-5 lgl:pl-10">Portfolio.</div>
+      <div className="text-3xl pl-4 md:pl-6 lgl:pl-10">Portfolio.</div>
       <div>
         <ul className="hidden mr-10 mdl:inline-flex items-center gap-6 lg:gap-10">
           {navLinksdata.map(({ id, title, link }) => (
@@ -32,12 +35,12 @@ const Navbar = () => {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mr-4 mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
         >
           <FiMenu />
         </span>
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+          <div data-aos="fade-right" className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-6 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <ul className="flex flex-col gap-4">
                 {navLinksdata.map((item) => (
@@ -61,7 +64,7 @@ const Navbar = () => {
               </ul>
               <div className="flex flex-col gap-4">
                 <h2 className="text-base uppercase font-titleFont mb-4">
-                  Find me in
+                  Find me on
                 </h2>
                 <div className="flex gap-4">
                   <a
@@ -89,6 +92,7 @@ const Navbar = () => {
               </div>
               <span
                 onClick={() => setShowMenu(false)}
+                data-aos="fade-right"
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
               >
                 <MdClose />
